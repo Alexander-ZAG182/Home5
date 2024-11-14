@@ -45,7 +45,7 @@ public class Main {
             System.out.println("Доставки нет");
         }
         System.out.println("Задача 5");
-        int monthNumber = 10;
+        int monthNumber = 13;
         switch (monthNumber) {
             case 1:
             case 2:
@@ -67,6 +67,8 @@ public class Main {
             case 11:
                 System.out.println("Этот месяц осенний.");
                 break;
+            default:
+                System.out.println("Такого месяца нет");
         }
 
 
